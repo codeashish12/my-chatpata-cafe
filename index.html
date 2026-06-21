@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta Tags -->
+  <title>New Chatapata Cafe Chandauli | Premium Luxury Cafe & Restaurant</title>
+  <meta name="description"
+    content="Experience great food, premium dark green & gold ambience, and memorable moments at New Chatapata Cafe, Danpur, Chandauli. Family-friendly seating, birthday parties, and fast food. Book a table now.">
+  <meta name="keywords"
+    content="New Chatapata Cafe, Cafe in Chandauli, Restaurant in Chandauli, Danpur Chandauli, Birthday Celebration Chandauli, Chinese Food Chandauli, Family Restaurant Chandauli">
+  <meta name="author" content="New Chatapata Cafe">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="New Chatapata Cafe Chandauli | Premium Luxury Cafe & Restaurant">
+  <meta property="og:description"
+    content="Experience great food, premium dark green & gold ambience, and memorable moments at New Chatapata Cafe, Danpur, Chandauli. Book a table or celebrate birthday parties.">
+  <meta property="og:image" content="src/assets/hero_bg.png">
+  <meta property="og:url" content="https://newchatapatacafe.com">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="New Chatapata Cafe Chandauli | Premium Luxury Cafe & Restaurant">
+  <meta property="twitter:description"
+    content="Experience great food, premium dark green & gold ambience, and memorable moments at New Chatapata Cafe, Danpur, Chandauli. Book a table.">
+  <meta property="twitter:image" content="src/assets/hero_bg.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="src/assets/logo.png">
+
+  <!-- Tailwind CSS CDN and custom styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"Playfair Display"', 'serif'],
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            gold: {
+              50: '#fcf9f2',
+              100: '#f6edd7',
+              200: '#ecdaae',
+              300: '#ddbf7a',
+              400: '#cca04d',
+              500: '#b58032',
+              600: '#9e6427',
+              700: '#834b21',
+              800: '#6b3b1f',
+              900: '#58311c',
+              955: '#33190d',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="src/main.css">
+</head>
+
+<body class="bg-black text-slate-200 antialiased selection:bg-gold-500 selection:text-black">
+
+  <!-- Header / Navigation Bar -->
+  <header id="navbar-container" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 glass-nav">
+    <!-- Top Cream Bar -->
+    <div
+      class="bg-gradient-to-r from-[#eae3d7] via-[#f4ede2] to-[#eae3d7] text-[#14281d] py-1.5 px-4 sm:px-6 lg:px-8 text-center text-[9px] sm:text-[10px] font-semibold tracking-widest uppercase border-b border-[#c59b27]/25 flex justify-between items-center gap-4">
+      <div class="hidden sm:block">🕒 Daily: 10:00 AM - 10:00 PM</div>
+      <div class="mx-auto sm:mx-0">📍 Danpur, Chandauli, Uttar Pradesh</div>
+      <div class="hidden md:block">📞 Direct Orders: 083539 68003</div>
+    </div>
+
+    <div
+      class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between py-4 transition-all duration-300">
+
+      <!-- Brand Logo -->
+      <a href="#home" class="flex items-center gap-3 group">
+        <img src="src/assets/logo.png" alt="New Chatapata Cafe Logo"
+          class="h-10 w-10 object-contain border border-gold-500/25 rounded-full p-0.5 group-hover:border-gold-400 transition-colors">
+        <div class="flex flex-col">
+          <span
+            class="font-serif text-lg sm:text-xl font-bold tracking-wider text-gold-400 group-hover:text-gold-300 transition-colors">NEW
+            CHATAPATA</span>
+          <span class="text-[9px] uppercase tracking-widest text-[#7d8c83] -mt-1">Cafe & Restaurant</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="hidden md:flex items-center gap-8">
+        <a href="#home"
+          class="nav-link text-xs uppercase tracking-wider font-semibold text-gold-400 hover:text-gold-300 transition-colors">Home</a>
+        <a href="#about"
+          class="nav-link text-xs uppercase tracking-wider font-semibold text-slate-300 hover:text-gold-400 transition-colors">About
+          Us</a>
+        <a href="#menu"
+          class="nav-link text-xs uppercase tracking-wider font-semibold text-slate-300 hover:text-gold-400 transition-colors">Menu</a>
+        <a href="#why-choose-us"
+          class="nav-link text-xs uppercase tracking-wider font-semibold text-slate-300 hover:text-gold-400 transition-colors">Why
+          Us</a>
+        <a href="#gallery"
+          class="nav-link text-xs uppercase tracking-wider font-semibold text-slate-300 hover:text-gold-400 transition-colors">Gallery</a>
+        <a href="#reviews"
+          class="nav-link text-xs uppercase tracking-wider font-semibold text-slate-300 hover:text-gold-400 transition-colors">Reviews</a>
+        <a href="#contact"
+          class="nav-link text-xs uppercase tracking-wider font-semibold text-slate-300 hover:text-gold-400 transition-colors">Contact</a>
+      </nav>
+
+      <!-- Desktop CTA -->
+      <div class="hidden md:block">
+        <a href="#reservations" class="btn-gold px-6 py-2.5 text-xs font-bold tracking-wider">
+          Book Table
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="mobile-menu-btn" aria-expanded="false" aria-controls="mobile-menu"
+        class="md:hidden text-slate-300 hover:text-gold-400 p-2 focus:outline-none" aria-label="Toggle Navigation">
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu"
+      class="hidden md:hidden absolute top-full left-0 w-full glass-nav flex-col py-6 px-6 gap-4 shadow-2xl border-t border-gold-500/10">
+      <a href="#home"
+        class="mobile-nav-link text-sm uppercase tracking-wider font-semibold text-gold-400 py-2 border-b border-white/5">Home</a>
+      <a href="#about"
+        class="mobile-nav-link text-sm uppercase tracking-wider font-semibold text-slate-300 py-2 border-b border-white/5">About
+        Us</a>
+      <a href="#menu"
+        class="mobile-nav-link text-sm uppercase tracking-wider font-semibold text-slate-300 py-2 border-b border-white/5">Menu</a>
+      <a href="#why-choose-us"
+        class="mobile-nav-link text-sm uppercase tracking-wider font-semibold text-slate-300 py-2 border-b border-white/5">Why
+        Us</a>
+      <a href="#gallery"
+        class="mobile-nav-link text-sm uppercase tracking-wider font-semibold text-slate-300 py-2 border-b border-white/5">Gallery</a>
+      <a href="#reviews"
+        class="mobile-nav-link text-sm uppercase tracking-wider font-semibold text-slate-300 py-2 border-b border-white/5">Reviews</a>
+      <a href="#contact"
+        class="mobile-nav-link text-sm uppercase tracking-wider font-semibold text-slate-300 py-2 border-b border-white/5">Contact</a>
+      <a href="#reservations" class="btn-gold w-full text-center py-3 text-xs font-bold tracking-wider mt-2">
+        Book A Table
+      </a>
+    </div>
+  </header>
+
+  <!-- 1. Hero Section -->
+  <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+    <!-- Hero Background Image with Parallax & Ken Burns motion effect -->
+    <div class="absolute inset-0 z-0">
+      <img src="src/assets/hero_bg.png" alt="New Chatapata Cafe Ambience"
+        class="w-full h-full object-cover scale-105 motion-safe:animate-[pulse_10s_ease-in-out_infinite]"
+        style="object-position: center 40%;">
+      <div class="absolute inset-0 hero-overlay"></div>
+    </div>
+
+    <!-- Decorative Gold Accents -->
+    <div
+      class="absolute top-1/4 left-10 w-48 h-48 bg-gold-500/10 rounded-full blur-[100px] pointer-events-none float-slow">
+    </div>
+    <div
+      class="absolute bottom-1/4 right-10 w-64 h-64 bg-emerald-500/5 rounded-full blur-[120px] pointer-events-none float-slower">
+    </div>
+
+    <!-- Hero Content -->
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center mt-8">
+      <span
+        class="inline-block border border-gold-500/30 bg-gold-950/20 text-gold-400 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest mb-6 reveal">
+        Danpur, Chandauli, Uttar Pradesh
+      </span>
+      <h1 class="text-4xl sm:text-5xl md:text-7xl font-bold font-serif leading-tight text-white mb-6 reveal">
+        Delicious <span class="text-gold-gradient">Foods</span> With <br class="hidden sm:inline">
+        Wonderful <span class="text-gold-gradient">Eating</span>
+      </h1>
+      <p
+        class="text-slate-300 text-base sm:text-lg md:text-xl font-light max-w-2xl mx-auto mb-10 leading-relaxed reveal">
+        We serve food, harmony, and laughter in Danpur, Chandauli. Experience great tastes, luxurious olive ambience,
+        and celebrate your memorable moments.
+      </p>
+
+      <!-- CTA Buttons -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 reveal">
+        <a href="#menu" class="btn-gold w-full sm:w-auto px-8 py-3.5 text-xs font-bold tracking-wider">
+          Explore Menu
+        </a>
+        <a href="#reservations" class="btn-outline-gold w-full sm:w-auto px-8 py-3.5 text-xs font-bold tracking-wider">
+          Book A Table
+        </a>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator mouse -->
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 hidden md:block">
+      <a href="#about" aria-label="Scroll Down"
+        class="flex flex-col items-center gap-2 group text-slate-400 hover:text-gold-400 transition-colors">
+        <span class="text-[9px] uppercase tracking-widest font-semibold">Discover More</span>
+        <div
+          class="w-6 h-10 border-2 border-slate-500 group-hover:border-gold-400 rounded-full flex justify-center p-1 transition-colors">
+          <div class="w-1.5 h-3 bg-gold-400 rounded-full animate-bounce"></div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- 2. About Us Section -->
+  <section id="about" class="py-24 bg-cream-theme relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+
+        <!-- Left Column: Story Text -->
+        <div class="lg:col-span-7 reveal-left">
+          <span class="text-gold-600 font-serif italic text-lg block mb-2">Our Story</span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-[#14281d] mb-6">Crafting Memorable Flavors and
+            Gatherings</h2>
+          <p class="text-slate-700 leading-relaxed mb-6">
+            New Chatapata Cafe Chandauli was born out of a passion for incredible culinary experiences and welcoming
+            community atmospheres. Nestled in Danpur, Chandauli, we are dedicated to providing our visitors with a
+            luxury cafe theme that merges modern aesthetics with warm hospitality.
+          </p>
+          <p class="text-slate-700 leading-relaxed mb-8">
+            Whether you are looking for a cozy corner to connect with friends over dynamic beverages, searching for a
+            delicious fast-food escape, or planning a birthday party in a beautifully decorated setting, we cater to
+            every milestone. Our family-friendly atmosphere ensures that every meal feels like a celebration.
+          </p>
+
+          <!-- Key Points Grid -->
+          <div class="grid grid-cols-2 gap-6 border-t border-[#c59b27]/30 pt-8">
+            <div class="flex gap-3">
+              <svg class="w-5 h-5 text-gold-600 shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <div>
+                <h4 class="font-serif text-[#14281d] font-bold">Premium Ambience</h4>
+                <p class="text-slate-600 text-xs mt-1">Stunning dark-green & gold theme setup.</p>
+              </div>
+            </div>
+            <div class="flex gap-3">
+              <svg class="w-5 h-5 text-gold-600 shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <div>
+                <h4 class="font-serif text-[#14281d] font-bold">Family Friendly</h4>
+                <p class="text-slate-600 text-xs mt-1">Dedicated spacious seats for comfort.</p>
+              </div>
+            </div>
+            <div class="flex gap-3">
+              <svg class="w-5 h-5 text-gold-600 shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <div>
+                <h4 class="font-serif text-[#14281d] font-bold">Birthday Celebrations</h4>
+                <p class="text-slate-600 text-xs mt-1">Special decorations and custom menu packs.</p>
+              </div>
+            </div>
+            <div class="flex gap-3">
+              <svg class="w-5 h-5 text-gold-600 shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <div>
+                <h4 class="font-serif text-[#14281d] font-bold">Friends Gathering</h4>
+                <p class="text-slate-600 text-xs mt-1">Cozy corners & awesome snack selections.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Visual Frame -->
+        <div class="lg:col-span-5 relative reveal-right">
+          <div
+            class="relative z-10 rounded-2xl overflow-hidden border border-[#c59b27]/30 shadow-2xl p-2 bg-[#14281d]/10">
+            <img src="src/assets/IMG.jpg" alt="Cafe cozy dining experience" class="w-full object-cover rounded-xl"
+              style="aspect-ratio: 4/5;">
+          </div>
+          <!-- Decorative Background Frame -->
+          <div
+            class="absolute -top-4 -left-4 w-full h-full border border-[#c59b27]/25 rounded-2xl -z-0 pointer-events-none">
+          </div>
+          <div class="absolute -bottom-4 -right-4 w-24 h-24 bg-gold-500/10 rounded-full blur-2xl pointer-events-none">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Featured Menu Section -->
+  <section id="menu" class="py-24 bg-[#0c1410] border-t border-[#c59b27]/20 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Section Title -->
+      <div class="text-center max-w-2xl mx-auto mb-16 reveal">
+        <span class="text-gold-400 font-serif italic text-lg block mb-2 flourish-title">Popular Dishes</span>
+        <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white mb-4 flourish-title-line">Taste Our Handcrafted
+          Delicacies</h2>
+        <p class="text-slate-400 font-light">From spicy snacks to premium beverages and combos, discover flavors that
+          ignite your senses.</p>
+      </div>
+
+      <!-- Menu Category Tabs -->
+      <div class="flex flex-wrap justify-center gap-3 sm:gap-4 mb-12 reveal">
+        <button data-category="all"
+          class="menu-tab-btn active px-6 py-2.5 rounded-none border border-[#c59b27]/30 text-xs font-semibold tracking-wider uppercase transition-all duration-300 hover:border-gold-500 text-slate-300">All</button>
+        <button data-category="fast-food"
+          class="menu-tab-btn px-6 py-2.5 rounded-none border border-[#c59b27]/30 text-xs font-semibold tracking-wider uppercase transition-all duration-300 hover:border-gold-500 text-slate-300">Burger
+          & Sandwich</button>
+        <button data-category="chinese"
+          class="menu-tab-btn px-6 py-2.5 rounded-none border border-[#c59b27]/30 text-xs font-semibold tracking-wider uppercase transition-all duration-300 hover:border-gold-500 text-slate-300">Chowmein
+          & Noodles</button>
+        <button data-category="snacks"
+          class="menu-tab-btn px-6 py-2.5 rounded-none border border-[#c59b27]/30 text-xs font-semibold tracking-wider uppercase transition-all duration-300 hover:border-gold-500 text-slate-300">Rolls
+          & Snacks</button>
+        <button data-category="beverages"
+          class="menu-tab-btn px-6 py-2.5 rounded-none border border-[#c59b27]/30 text-xs font-semibold tracking-wider uppercase transition-all duration-300 hover:border-gold-500 text-slate-300">Chai
+          & Coffee</button>
+        <button data-category="main-course"
+          class="menu-tab-btn px-6 py-2.5 rounded-none border border-[#c59b27]/30 text-xs font-semibold tracking-wider uppercase transition-all duration-300 hover:border-gold-500 text-slate-300">Dal
+          & Rice</button>
+      </div>
+
+      <!-- Menu Grid -->
+      <div id="menu-items-grid"
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 min-h-[300px] transition-all duration-300">
+        <!-- Rendered dynamically by JavaScript -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 4. Why Choose Us Section -->
+  <section id="why-choose-us" class="py-24 bg-[#14281d] border-t border-[#c59b27]/20 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
+      <!-- Section Title -->
+      <div class="text-center max-w-2xl mx-auto mb-16 reveal">
+        <span class="text-gold-400 font-serif italic text-lg block mb-2 flourish-title">Excellence Guaranteed</span>
+        <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white mb-4 flourish-title-line">Why Choose New
+          Chatapata Cafe?</h2>
+        <p class="text-slate-400 font-light">We place quality, cleanliness, and guest satisfaction above all else to
+          deliver a worth-remembering cafe experience.</p>
+      </div>
+
+      <!-- Grid Layout -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Card 1: Hygienic Food -->
+        <div class="vintage-frame bg-slate-950/30 glass-card p-8 reveal group">
+          <div class="vintage-corners"></div>
+          <div class="vintage-corners-alt"></div>
+          <div
+            class="w-12 h-12 rounded-none bg-gold-950/30 border border-[#c59b27]/30 flex items-center justify-center text-gold-400 mb-6">
+            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+            </svg>
+          </div>
+          <h3 class="font-serif text-xl font-semibold text-slate-100 mb-3 group-hover:text-gold-400 transition-colors">
+            100% Hygienic Food</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">Our kitchen follows strict safety protocols. Every
+            ingredient is carefully washed, handled, and cooked freshly to maintain taste and purity.</p>
+        </div>
+
+        <!-- Card 2: Premium Ambience -->
+        <div class="vintage-frame bg-slate-950/30 glass-card p-8 reveal group">
+          <div class="vintage-corners"></div>
+          <div class="vintage-corners-alt"></div>
+          <div
+            class="w-12 h-12 rounded-none bg-gold-950/30 border border-[#c59b27]/30 flex items-center justify-center text-gold-400 mb-6">
+            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+            </svg>
+          </div>
+          <h3 class="font-serif text-xl font-semibold text-slate-100 mb-3 group-hover:text-gold-400 transition-colors">
+            Premium Ambience</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">Designed with custom dark-green shades and brushed luxury
+            gold details. Our setting offers dynamic mood lighting perfect for instagrammable photos.</p>
+        </div>
+
+        <!-- Card 3: Family Seating -->
+        <div class="vintage-frame bg-slate-950/30 glass-card p-8 reveal group">
+          <div class="vintage-corners"></div>
+          <div class="vintage-corners-alt"></div>
+          <div
+            class="w-12 h-12 rounded-none bg-gold-950/30 border border-[#c59b27]/30 flex items-center justify-center text-gold-400 mb-6">
+            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>
+          </div>
+          <h3 class="font-serif text-xl font-semibold text-slate-100 mb-3 group-hover:text-gold-400 transition-colors">
+            Family Seating</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">We feature a cozy, comfortable, and respectful family zone,
+            assuring complete privacy and pleasant moments with children and parents.</p>
+        </div>
+
+        <!-- Card 4: Birthday Decoration -->
+        <div class="vintage-frame bg-slate-950/30 glass-card p-8 reveal group">
+          <div class="vintage-corners"></div>
+          <div class="vintage-corners-alt"></div>
+          <div
+            class="w-12 h-12 rounded-none bg-gold-950/30 border border-[#c59b27]/30 flex items-center justify-center text-gold-400 mb-6">
+            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5a2 2 0 10-2 2h2zm0 0h4l-1.9 9.5a1 1 0 01-.98.8H10.88a1 1 0 01-.98-.8L7 8h4" />
+            </svg>
+          </div>
+          <h3 class="font-serif text-xl font-semibold text-slate-100 mb-3 group-hover:text-gold-400 transition-colors">
+            Birthday Decoration</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">Let us handle your party setups! We offer customizable
+            themes, balloon drop lights, photobooths, and sound setups for awesome events.</p>
+        </div>
+
+        <!-- Card 5: Affordable Prices -->
+        <div class="vintage-frame bg-slate-950/30 glass-card p-8 reveal group">
+          <div class="vintage-corners"></div>
+          <div class="vintage-corners-alt"></div>
+          <div
+            class="w-12 h-12 rounded-none bg-gold-950/30 border border-[#c59b27]/30 flex items-center justify-center text-gold-400 mb-6">
+            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3 class="font-serif text-xl font-semibold text-slate-100 mb-3 group-hover:text-gold-400 transition-colors">
+            Affordable Prices</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">Luxury does not have to be expensive. Our diverse menu
+            options are reasonably priced to bring premium tastes to everyone in Chandauli.</p>
+        </div>
+
+        <!-- Card 6: Friendly Service -->
+        <div class="vintage-frame bg-slate-950/30 glass-card p-8 reveal group">
+          <div class="vintage-corners"></div>
+          <div class="vintage-corners-alt"></div>
+          <div
+            class="w-12 h-12 rounded-none bg-gold-950/30 border border-[#c59b27]/30 flex items-center justify-center text-gold-400 mb-6">
+            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3 class="font-serif text-xl font-semibold text-slate-100 mb-3 group-hover:text-gold-400 transition-colors">
+            Friendly Service</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">Our cordial, dedicated staff welcomes you with a warm smile,
+            attending to your dining needs promptly for a perfect experience.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Gallery Section (Masonry Grid) -->
+  <section id="gallery" class="py-24 bg-[#0c1410] border-t border-[#c59b27]/20 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Section Title -->
+      <div class="text-center max-w-2xl mx-auto mb-16 reveal">
+        <span class="text-gold-400 font-serif italic text-lg block mb-2 flourish-title">Visual Tour</span>
+        <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white mb-4 flourish-title-line">Captures From New
+          Chatapata Cafe</h2>
+        <p class="text-slate-400 font-light">Take a glance at our aesthetic interiors, mouthwatering dishes, and happy
+          customer moments.</p>
+      </div>
+
+      <!-- Masonry Grid Layout -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[250px] reveal">
+
+        <!-- Box 1 (Tall) -->
+        <div
+          class="gallery-item overflow-hidden rounded-2xl border border-gold-500/10 group cursor-zoom-in relative masonry-item-tall">
+          <img src="src/assets/hero_bg.png" alt="Cafe Main Ambience"
+            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            <div>
+              <p class="text-gold-400 text-xs font-semibold uppercase tracking-wider">Interior</p>
+              <h4 class="font-serif text-lg text-white font-bold">Luxury Table Seating</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- Box 2 -->
+        <div class="gallery-item overflow-hidden rounded-2xl border border-gold-500/10 group cursor-zoom-in relative">
+          <img src="src/assets/burger.png" alt="Gourmet Plating"
+            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            <div>
+              <p class="text-gold-400 text-xs font-semibold uppercase tracking-wider">Fast Food</p>
+              <h4 class="font-serif text-lg text-white font-bold">Signature Burger Platter</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- Box 3 -->
+        <div class="gallery-item overflow-hidden rounded-2xl border border-gold-500/10 group cursor-zoom-in relative">
+          <img src="src/assets/gallery_1.png" alt="Coffee Brewing"
+            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            <div>
+              <p class="text-gold-400 text-xs font-semibold uppercase tracking-wider">Brew Station</p>
+              <h4 class="font-serif text-lg text-white font-bold">Espresso & Coffee Bar</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- Box 4 (Tall) -->
+        <div
+          class="gallery-item overflow-hidden rounded-2xl border border-gold-500/10 group cursor-zoom-in relative masonry-item-tall">
+          <img src="src/assets/gallery_2.png" alt="Birthday Party Celebration"
+            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            <div>
+              <p class="text-gold-400 text-xs font-semibold uppercase tracking-wider">Events</p>
+              <h4 class="font-serif text-lg text-white font-bold">Birthday Cake Cutting</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- Box 5 -->
+        <div class="gallery-item overflow-hidden rounded-2xl border border-gold-500/10 group cursor-zoom-in relative">
+          <img src="src/assets/gallery_3.png" alt="Sizzling Dessert"
+            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            <div>
+              <p class="text-gold-400 text-xs font-semibold uppercase tracking-wider">Desserts</p>
+              <h4 class="font-serif text-lg text-white font-bold">Sizzling Chocolate Brownie</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- Box 6 -->
+        <div class="gallery-item overflow-hidden rounded-2xl border border-gold-500/10 group cursor-zoom-in relative">
+          <img src="src/assets/combo_platter.png" alt="Chinese Meal Combo"
+            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            <div>
+              <p class="text-gold-400 text-xs font-semibold uppercase tracking-wider">Combos</p>
+              <h4 class="font-serif text-lg text-white font-bold">Mega Chinese Combo Platter</h4>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Customer Reviews Section -->
+  <section id="reviews" class="py-24 bg-[#14281d] border-t border-[#c59b27]/20 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
+      <!-- Section Title -->
+      <div class="text-center max-w-2xl mx-auto mb-16 reveal">
+        <span class="text-gold-400 font-serif italic text-lg block mb-2 flourish-title">Guest Testimonials</span>
+        <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white mb-4 flourish-title-line">What Our Customers Say
+        </h2>
+        <p class="text-slate-400 font-light">Verified reviews from food lovers in Chandauli who visit us for ambience
+          and flavors.</p>
+      </div>
+
+      <!-- Testimonial Slider Wrapper -->
+      <div class="max-w-4xl mx-auto relative reveal">
+        <!-- Review Track -->
+        <div id="reviews-track" class="min-h-[220px]">
+
+          <!-- Slide 1 -->
+          <div class="vintage-frame bg-slate-950/30 glass-card p-8 sm:p-10 relative">
+            <div class="vintage-corners"></div>
+            <div class="vintage-corners-alt"></div>
+            <!-- Large Quote Symbol -->
+            <span
+              class="absolute top-4 right-8 text-gold-500/10 font-serif text-8xl pointer-events-none select-none">“</span>
+
+            <div class="flex items-center gap-4 mb-6">
+              <div
+                class="w-12 h-12 rounded-full bg-gradient-to-tr from-amber-500 to-yellow-500 flex items-center justify-center text-black font-bold text-lg">
+                AS
+              </div>
+              <div>
+                <h4 class="font-serif text-slate-100 font-bold">Abhishek Singh</h4>
+                <p class="text-xs text-slate-400">Google Verified Reviewer</p>
+              </div>
+            </div>
+
+            <!-- Stars -->
+            <div class="flex text-amber-400 gap-1 mb-4">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+
+            <p class="text-slate-300 italic text-base leading-relaxed">
+              "The best cafe in Chandauli, hands down! The dark green and gold interiors look extremely premium. We
+              ordered the Gourmet Veg Cheese Burger and Kurkure Momos. The taste was absolutely authentic and prices
+              were highly affordable. Perfect place for couples and families!"
+            </p>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="vintage-frame bg-slate-950/30 glass-card p-8 sm:p-10 relative hidden">
+            <div class="vintage-corners"></div>
+            <div class="vintage-corners-alt"></div>
+            <span
+              class="absolute top-4 right-8 text-gold-500/10 font-serif text-8xl pointer-events-none select-none">“</span>
+
+            <div class="flex items-center gap-4 mb-6">
+              <div
+                class="w-12 h-12 rounded-full bg-gradient-to-tr from-emerald-500 to-teal-500 flex items-center justify-center text-black font-bold text-lg">
+                PK
+              </div>
+              <div>
+                <h4 class="font-serif text-slate-100 font-bold">Priya Kumari</h4>
+                <p class="text-xs text-slate-400">Local Guide</p>
+              </div>
+            </div>
+
+            <!-- Stars -->
+            <div class="flex text-amber-400 gap-1 mb-4">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+
+            <p class="text-slate-300 italic text-base leading-relaxed">
+              "Booked this cafe for my brother's birthday party. The balloon decoration done by their team was
+              spectacular! The Chinese starter combo platter was a huge hit among the guests. Extremely supportive staff
+              and clean washrooms. 10/10 recommended."
+            </p>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="vintage-frame bg-slate-950/30 glass-card p-8 sm:p-10 relative hidden">
+            <div class="vintage-corners"></div>
+            <div class="vintage-corners-alt"></div>
+            <span
+              class="absolute top-4 right-8 text-gold-500/10 font-serif text-8xl pointer-events-none select-none">“</span>
+
+            <div class="flex items-center gap-4 mb-6">
+              <div
+                class="w-12 h-12 rounded-full bg-gradient-to-tr from-rose-500 to-pink-500 flex items-center justify-center text-black font-bold text-lg">
+                MY
+              </div>
+              <div>
+                <h4 class="font-serif text-slate-100 font-bold">Mohd. Yasir</h4>
+                <p class="text-xs text-slate-400">Food Blogger</p>
+              </div>
+            </div>
+
+            <!-- Stars -->
+            <div class="flex text-amber-400 gap-1 mb-4">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+
+            <p class="text-slate-300 italic text-base leading-relaxed">
+              "I highly recommend their Mint Mojito. It is incredibly refreshing and crafted beautifully. The spacing
+              between tables provides nice privacy. The ambient music complements the luxurious design of the cafe.
+              Prices are very pocket-friendly too."
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Slider Nav Buttons -->
+        <div class="flex items-center justify-center gap-4 mt-8">
+          <button id="review-prev-btn"
+            class="w-10 h-10 rounded-full border border-gold-500/30 hover:border-gold-400 text-gold-400 hover:bg-gold-500/10 flex items-center justify-center transition-all duration-300"
+            aria-label="Previous Review">
+            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          <button id="review-next-btn"
+            class="w-10 h-10 rounded-full border border-gold-500/30 hover:border-gold-400 text-gold-400 hover:bg-gold-500/10 flex items-center justify-center transition-all duration-300"
+            aria-label="Next Review">
+            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Reservations & Bookings Section (Dual Forms) -->
+  <section id="reservations" class="py-24 bg-[#0c1410] border-t border-[#c59b27]/20 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Section Title -->
+      <div class="text-center max-w-2xl mx-auto mb-16 reveal">
+        <span class="text-gold-400 font-serif italic text-lg block mb-2 flourish-title">Reservations & Parties</span>
+        <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white mb-4 flourish-title-line">Book Your Spot with Us
+        </h2>
+        <p class="text-slate-400 font-light">Book a romantic dinner table online, or reserve our cafe lounge for
+          birthday parties & corporate events.</p>
+      </div>
+
+      <!-- Forms Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+
+        <!-- Form A: Table Booking -->
+        <div class="vintage-frame bg-slate-950/30 glass-card p-8 reveal-left">
+          <div class="vintage-corners"></div>
+          <div class="vintage-corners-alt"></div>
+
+          <div class="flex items-center gap-3 mb-6 relative z-10">
+            <div
+              class="w-8 h-8 rounded-none bg-gold-950/40 border border-gold-500/20 flex items-center justify-center text-gold-400">
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-white">Online Table Reservation</h3>
+          </div>
+
+          <form id="table-booking-form" class="space-y-5 relative z-10">
+            <div>
+              <label for="booking-name"
+                class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">Your Name</label>
+              <input type="text" id="booking-name" required
+                class="w-full bg-slate-950 border border-white/10 rounded-none px-4 py-3 text-sm text-white focus:outline-none focus:border-gold-400 transition-colors vintage-input"
+                placeholder="e.g. Abhishek Singh">
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label for="booking-phone"
+                  class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">Phone Number</label>
+                <input type="tel" id="booking-phone" required
+                  class="w-full bg-slate-950 border border-white/10 rounded-none px-4 py-3 text-sm text-white focus:outline-none focus:border-gold-400 transition-colors vintage-input"
+                  placeholder="e.g. 083539 68003">
+              </div>
+              <div>
+                <label for="booking-guests"
+                  class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">Number of
+                  Guests</label>
+                <select id="booking-guests" required
+                  class="w-full bg-slate-950 border border-white/10 rounded-none px-4 py-3 text-sm text-white focus:outline-none focus:border-gold-400 transition-colors vintage-input">
+                  <option value="2">2 Guests</option>
+                  <option value="3">3 Guests</option>
+                  <option value="4">4 Guests</option>
+                  <option value="5-8">5-8 Guests</option>
+                  <option value="8+">More than 8</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label for="booking-date"
+                  class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">Date</label>
+                <input type="date" id="booking-date" required
+                  class="w-full bg-slate-950 border border-white/10 rounded-none px-4 py-3 text-sm text-white focus:outline-none focus:border-gold-400 transition-colors vintage-input">
+              </div>
+              <div>
+                <label for="booking-time"
+                  class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">Time Slot</label>
+                <select id="booking-time" required
+                  class="w-full bg-slate-950 border border-white/10 rounded-none px-4 py-3 text-sm text-white focus:outline-none focus:border-gold-400 transition-colors vintage-input">
+                  <option value="11:00 AM">11:00 AM</option>
+                  <option value="01:00 PM">01:00 PM</option>
+                  <option value="04:00 PM">04:00 PM</option>
+                  <option value="06:00 PM">06:00 PM</option>
+                  <option value="08:00 PM">08:00 PM</option>
+                  <option value="09:00 PM">09:00 PM</option>
+                </select>
+              </div>
+            </div>
+
+            <button type="submit" class="btn-gold w-full py-4 text-xs font-bold tracking-wider mt-4">
+              Reserve A Table
+            </button>
+          </form>
+        </div>
+
+        <!-- Form B: Birthday & Party Booking -->
+        <div class="vintage-frame bg-slate-950/30 glass-card p-8 reveal-right">
+          <div class="vintage-corners"></div>
+          <div class="vintage-corners-alt"></div>
+
+          <div class="flex items-center gap-3 mb-6 relative z-10">
+            <div
+              class="w-8 h-8 rounded-none bg-gold-950/40 border border-gold-500/20 flex items-center justify-center text-gold-400">
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5a2 2 0 10-2 2h2zm0 0h4l-1.9 9.5a1 1 0 01-.98.8H10.88a1 1 0 01-.98-.8L7 8h4" />
+              </svg>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-white">Birthday & Party Booking</h3>
+          </div>
+
+          <form id="party-booking-form" class="space-y-5 relative z-10">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label for="party-name"
+                  class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">Organizer
+                  Name</label>
+                <input type="text" id="party-name" required
+                  class="w-full bg-slate-950 border border-white/10 rounded-none px-4 py-3 text-sm text-white focus:outline-none focus:border-gold-400 transition-colors vintage-input"
+                  placeholder="e.g. Priya Kumari">
+              </div>
+              <div>
+                <label for="party-phone"
+                  class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">Contact Phone</label>
+                <input type="tel" id="party-phone" required
+                  class="w-full bg-slate-950 border border-white/10 rounded-none px-4 py-3 text-sm text-white focus:outline-none focus:border-gold-400 transition-colors vintage-input"
+                  placeholder="e.g. 083539 68003">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label for="party-type"
+                  class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">Event Type</label>
+                <select id="party-type" required
+                  class="w-full bg-slate-950 border border-white/10 rounded-none px-4 py-3 text-sm text-white focus:outline-none focus:border-gold-400 transition-colors vintage-input">
+                  <option value="Birthday Celebration">Birthday Celebration</option>
+                  <option value="Anniversary Party">Anniversary Party</option>
+                  <option value="Friends Gathering">Friends Gathering</option>
+                  <option value="Corporate Meetup">Corporate Meetup</option>
+                  <option value="Other Celebration">Other Celebration</option>
+                </select>
+              </div>
+              <div>
+                <label for="party-guests"
+                  class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">Expected
+                  Guests</label>
+                <input type="number" id="party-guests" required
+                  class="w-full bg-slate-950 border border-white/10 rounded-none px-4 py-3 text-sm text-white focus:outline-none focus:border-gold-400 transition-colors vintage-input"
+                  placeholder="e.g. 25" min="5">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label for="party-date"
+                  class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">Event Date</label>
+                <input type="date" id="party-date" required
+                  class="w-full bg-slate-950 border border-white/10 rounded-none px-4 py-3 text-sm text-white focus:outline-none focus:border-gold-400 transition-colors vintage-input">
+              </div>
+              <div class="flex items-end text-xs text-slate-400 italic pb-2">
+                *Includes custom balloon decor options!
+              </div>
+            </div>
+
+            <div>
+              <label for="party-message"
+                class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">Decoration & Menu
+                Requirements</label>
+              <textarea id="party-message" rows="3"
+                class="w-full bg-slate-950 border border-white/10 rounded-none px-4 py-3 text-sm text-white focus:outline-none focus:border-gold-400 transition-colors vintage-input"
+                placeholder="Mention special food preferences, birthday cake flavor, or decoration preferences..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-gold w-full py-4 text-xs font-bold tracking-wider mt-4">
+              Submit Party Request
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Contact Section -->
+  <section id="contact" class="py-24 bg-[#14281d] border-t border-[#c59b27]/20 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
+      <!-- Section Title -->
+      <div class="text-center max-w-2xl mx-auto mb-16 reveal">
+        <span class="text-gold-400 font-serif italic text-lg block mb-2 flourish-title">Find Us</span>
+        <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white mb-4 flourish-title-line">Contact & Location
+          Details</h2>
+        <p class="text-slate-400 font-light">We are located in Danpur, Chandauli. Get directions or contact us directly.
+        </p>
+      </div>
+
+      <!-- Content Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+
+        <!-- Left Column: Contact details -->
+        <div class="lg:col-span-5 reveal-left">
+          <div class="space-y-8">
+
+            <!-- Cafe Name / Address -->
+            <div class="flex items-start gap-4">
+              <div
+                class="w-12 h-12 rounded-none bg-gold-950/30 border border-gold-500/20 flex items-center justify-center text-gold-400 shrink-0">
+                <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-serif text-lg font-bold text-white mb-1">Our Location</h4>
+                <p class="text-slate-300 text-sm leading-relaxed">
+                  New Chatapata Cafe Chandauli<br>
+                  Danpur, Chandauli, Uttar Pradesh 232104
+                </p>
+              </div>
+            </div>
+
+            <!-- Phone / Call -->
+            <div class="flex items-start gap-4">
+              <div
+                class="w-12 h-12 rounded-none bg-gold-950/30 border border-gold-500/20 flex items-center justify-center text-gold-400 shrink-0">
+                <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-serif text-lg font-bold text-white mb-1">Call Us</h4>
+                <a href="tel:08353968003"
+                  class="text-slate-300 hover:text-gold-400 text-sm font-semibold transition-colors block">
+                  083539 68003
+                </a>
+                <p class="text-xs text-slate-500 mt-1">Tap to dial directly</p>
+              </div>
+            </div>
+
+            <!-- Operating Hours -->
+            <div class="flex items-start gap-4">
+              <div
+                class="w-12 h-12 rounded-none bg-gold-950/30 border border-gold-500/20 flex items-center justify-center text-gold-400 shrink-0">
+                <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-serif text-lg font-bold text-white mb-1">Opening Hours</h4>
+                <p class="text-slate-300 text-sm">Everyday: 10:00 AM - 10:00 PM</p>
+              </div>
+            </div>
+
+            <!-- Action buttons: Click to Call & WhatsApp -->
+            <div class="flex flex-col sm:flex-row gap-4 pt-4">
+              <a href="tel:08353968003"
+                class="btn-gold flex items-center justify-center gap-2 py-3.5 px-6 rounded-none text-xs font-bold tracking-wider w-full sm:w-auto">
+                <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+                Click To Call
+              </a>
+              <a href="https://wa.me/918353968003" target="_blank"
+                class="bg-green-600 hover:bg-green-500 text-white flex items-center justify-center gap-2 py-3.5 px-6 rounded-none text-xs font-bold tracking-wider transition-colors w-full sm:w-auto shadow-lg hover:shadow-green-500/20">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.513 2.262 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.97C16.59 2.066 14.12 1.04 11.999 1.04 6.562 1.04 2.137 5.411 2.133 10.84c-.002 1.722.453 3.401 1.317 4.894l-.994 3.626 3.722-.966zM17.487 14.39c-.3-.15-1.774-.875-2.046-.975-.273-.1-.472-.15-.672.15-.2.3-.775.975-.95 1.174-.175.2-.35.224-.65.074-1.208-.604-1.986-.984-2.753-2.301-.19-.323.19-.3.542-1.001.075-.15.038-.275-.019-.375-.057-.1-.472-1.14-.648-1.564-.173-.414-.347-.359-.472-.366-.123-.006-.264-.007-.406-.007-.141 0-.372.053-.566.264-.194.212-.74.723-.74 1.761s.755 2.039.86 2.176c.105.137 1.484 2.265 3.597 3.177 1.21.522 1.962.667 2.633.567.747-.111 2.296-.94 2.62-1.85.324-.909.324-1.686.226-1.85-.098-.163-.293-.263-.593-.413z" />
+                </svg>
+                WhatsApp Chat
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right Column: Map Embed -->
+        <div class="lg:col-span-7 reveal-right">
+          <div class="rounded-2xl overflow-hidden border border-gold-500/20 shadow-2xl p-2 bg-emerald-950/20 h-[380px]">
+            <!-- Google Maps Iframe Embed for Danpur, Chandauli, Uttar Pradesh -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14431.109152226297!2d83.25624792617632!2d25.261276088219198!2d232104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2fd695d75bc5%3A0xe54b9d033e6fa34b!2sDanpur%2C%20Chandauli%2C%20Uttar%20Pradesh%20232104!5e0!3m2!1sen!2sin!4v1718912345678!5m2!1sen!2sin"
+              class="w-full h-full object-cover rounded-xl" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" title="Google Map showing Danpur, Chandauli, Uttar Pradesh">
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Footer -->
+  <footer class="bg-black border-t border-gold-500/10 pt-16 pb-8 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
+      <!-- Footer grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+
+        <!-- Logo & Story -->
+        <div class="space-y-4">
+          <a href="#home" class="flex items-center gap-3">
+            <img src="src/assets/logo.png" alt="New Chatapata Cafe Logo"
+              class="h-10 w-10 object-contain rounded-full border border-gold-500/25 p-0.5">
+            <span class="font-serif text-lg font-bold tracking-wider text-gold-400">NEW CHATAPATA</span>
+          </a>
+          <p class="text-slate-400 text-xs leading-relaxed">
+            Experience great food, premium green and gold luxury ambience, and memorable moments with friends and family
+            in Danpur, Chandauli.
+          </p>
+
+          <!-- Social Icons -->
+          <div class="flex gap-4 pt-2">
+            <!-- Instagram -->
+            <a href="https://instagram.com" target="_blank"
+              class="w-8 h-8 rounded-full border border-gold-500/20 hover:border-gold-400 flex items-center justify-center text-slate-400 hover:text-gold-400 transition-colors"
+              aria-label="Follow us on Instagram">
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke-width="2" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke-width="2" />
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-width="2" />
+              </svg>
+            </a>
+            <!-- Facebook -->
+            <a href="https://facebook.com" target="_blank"
+              class="w-8 h-8 rounded-full border border-gold-500/20 hover:border-gold-400 flex items-center justify-center text-slate-400 hover:text-gold-400 transition-colors"
+              aria-label="Follow us on Facebook">
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" stroke-width="2" />
+              </svg>
+            </a>
+            <!-- WhatsApp -->
+            <a href="https://wa.me/918353968003" target="_blank"
+              class="w-8 h-8 rounded-full border border-gold-500/20 hover:border-gold-400 flex items-center justify-center text-slate-400 hover:text-gold-400 transition-colors"
+              aria-label="Contact us on WhatsApp">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.513 2.262 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.97C16.59 2.066 14.12 1.04 11.999 1.04 6.562 1.04 2.137 5.411 2.133 10.84c-.002 1.722.453 3.401 1.317 4.894l-.994 3.626 3.722-.966zM17.487 14.39c-.3-.15-1.774-.875-2.046-.975-.273-.1-.472-.15-.672.15-.2.3-.775.975-.95 1.174-.175.2-.35.224-.65.074-1.208-.604-1.986-.984-2.753-2.301-.19-.323.19-.3.542-1.001.075-.15.038-.275-.019-.375-.057-.1-.472-1.14-.648-1.564-.173-.414-.347-.359-.472-.366-.123-.006-.264-.007-.406-.007-.141 0-.372.053-.566.264-.194.212-.74.723-.74 1.761s.755 2.039.86 2.176c.105.137 1.484 2.265 3.597 3.177 1.21.522 1.962.667 2.633.567.747-.111 2.296-.94 2.62-1.85.324-.909.324-1.686.226-1.85-.098-.163-.293-.263-.593-.413z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="font-serif text-sm font-semibold tracking-wider text-slate-100 uppercase mb-4">Quick Links</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="#home" class="text-slate-400 hover:text-gold-400 transition-colors">Home</a></li>
+            <li><a href="#about" class="text-slate-400 hover:text-gold-400 transition-colors">About Us</a></li>
+            <li><a href="#menu" class="text-slate-400 hover:text-gold-400 transition-colors">Our Menu</a></li>
+            <li><a href="#why-choose-us" class="text-slate-400 hover:text-gold-400 transition-colors">Why Choose Us</a>
+            </li>
+            <li><a href="#gallery" class="text-slate-400 hover:text-gold-400 transition-colors">Gallery</a></li>
+            <li><a href="#reservations" class="text-slate-400 hover:text-gold-400 transition-colors">Bookings</a></li>
+          </ul>
+        </div>
+
+        <!-- Timing / Opening hours -->
+        <div>
+          <h4 class="font-serif text-sm font-semibold tracking-wider text-slate-100 uppercase mb-4">Opening Hours</h4>
+          <ul class="space-y-2 text-xs text-slate-400">
+            <li class="flex justify-between border-b border-white/5 pb-1">
+              <span>Monday - Friday</span>
+              <span class="text-slate-200">10:00 AM - 10:00 PM</span>
+            </li>
+            <li class="flex justify-between border-b border-white/5 pb-1">
+              <span>Saturday</span>
+              <span class="text-slate-200">10:00 AM - 10:00 PM</span>
+            </li>
+            <li class="flex justify-between border-b border-white/5 pb-1">
+              <span>Sunday</span>
+              <span class="text-gold-400 font-bold">10:00 AM - 10:00 PM</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Short Address / Call -->
+        <div>
+          <h4 class="font-serif text-sm font-semibold tracking-wider text-slate-100 uppercase mb-4">Direct Contact</h4>
+          <ul class="space-y-3 text-xs text-slate-400">
+            <li class="flex items-start gap-2">
+              <span class="text-gold-400 shrink-0">📍</span>
+              <span>Danpur, Chandauli, Uttar Pradesh 232104</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-gold-400 shrink-0">📞</span>
+              <a href="tel:08353968003" class="hover:text-gold-400 transition-colors">083539 68003</a>
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-gold-400 shrink-0">✉️</span>
+              <a href="mailto:info@newchatapatacafe.com"
+                class="hover:text-gold-400 transition-colors">info@newchatapatacafe.com</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Copyright block -->
+      <div
+        class="border-t border-white/5 pt-8 text-center text-[10px] text-slate-500 uppercase tracking-widest flex flex-col sm:flex-row items-center justify-between gap-4">
+        <p>&copy; 2026 New Chatapata Cafe Chandauli. All rights reserved.</p>
+        <p class="flex gap-4">
+          <a href="#" class="hover:text-gold-400 transition-colors">Privacy Policy</a>
+          <a href="#" class="hover:text-gold-400 transition-colors">Terms of Service</a>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- EXTRA FEATURES -->
+
+  <!-- A. Floating WhatsApp Button -->
+  <a href="https://wa.me/918353968003" target="_blank"
+    class="fixed bottom-6 right-6 w-14 h-14 bg-green-500 hover:bg-green-400 text-white rounded-full flex items-center justify-center shadow-2xl z-40 transition-transform duration-300 hover:scale-110 whatsapp-pulse"
+    aria-label="Chat with us on WhatsApp">
+    <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
+      <path
+        d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.513 2.262 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.97C16.59 2.066 14.12 1.04 11.999 1.04 6.562 1.04 2.137 5.411 2.133 10.84c-.002 1.722.453 3.401 1.317 4.894l-.994 3.626 3.722-.966zM17.487 14.39c-.3-.15-1.774-.875-2.046-.975-.273-.1-.472-.15-.672.15-.2.3-.775.975-.95 1.174-.175.2-.35.224-.65.074-1.208-.604-1.986-.984-2.753-2.301-.19-.323.19-.3.542-1.001.075-.15.038-.275-.019-.375-.057-.1-.472-1.14-.648-1.564-.173-.414-.347-.359-.472-.366-.123-.006-.264-.007-.406-.007-.141 0-.372.053-.566.264-.194.212-.74.723-.74 1.761s.755 2.039.86 2.176c.105.137 1.484 2.265 3.597 3.177 1.21.522 1.962.667 2.633.567.747-.111 2.296-.94 2.62-1.85.324-.909.324-1.686.226-1.85-.098-.163-.293-.263-.593-.413z" />
+    </svg>
+  </a>
+
+  <!-- B. Image Gallery Lightbox Modal -->
+  <div id="gallery-lightbox" class="lightbox" aria-hidden="true" role="dialog">
+    <button id="lightbox-close"
+      class="absolute top-6 right-6 text-white/70 hover:text-white text-3xl focus:outline-none"
+      aria-label="Close Lightbox">&times;</button>
+    <div class="max-w-4xl max-h-[85vh] p-4 flex flex-col justify-center items-center">
+      <img src="" alt="" class="max-w-full max-h-[80vh] object-contain rounded-lg border border-gold-500/25">
+    </div>
+  </div>
+
+  <!-- C. Success Modal (Simulated Form Submission Feedback) -->
+  <div id="success-modal" class="fixed inset-0 bg-black/85 backdrop-blur-sm z-50 items-center justify-center hidden">
+    <div class="glass-card rounded-2xl max-w-md w-full p-8 text-center border-gold-500/30 mx-4">
+      <div
+        class="w-16 h-16 bg-gold-950/40 border-2 border-gold-400 rounded-full flex items-center justify-center text-gold-400 mx-auto mb-6 text-3xl">
+        ✓
+      </div>
+      <h3 class="font-serif text-2xl font-bold text-white mb-3">Request Submitted!</h3>
+      <p id="success-modal-message" class="text-slate-300 text-sm leading-relaxed mb-6"></p>
+      <button id="modal-close-btn" class="btn-gold px-6 py-2.5 rounded-xl text-xs font-bold tracking-wider">
+        Okay, Got It
+      </button>
+    </div>
+  </div>
+
+  <!-- Main JavaScript -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
